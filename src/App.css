@@ -1,33 +1,381 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+    padding: 0;
+      text-align: center;
+        background-color: rgb(40, 43, 37);
+  
+
+
 }
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+    height: 10vmin;
+      pointer-events: none;
+        margin-top: 20px;
+}
+.AppTitle{
+  font-size: calc(30px + 2vmin);
+    margin-top: 20px;
+       font-weight: bold;
+        font-family: cursive;
+           font-variation-settings: 'wdth' 25;
+        color: white;
+      padding-top: 500px;
+    text-align: center;
+  justify-content: center
+
+
+}
+.AppTitleDescription{
+    font-size: large;
+      font-family: cursive;
+        padding-top: 70px;
+      color: antiquewhite;
+    padding-bottom: 50px;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+    min-height: 100vh;
+      display: flex;
+        flex-direction: column;
+      align-items: center;
+    justify-content: center;
+}
+.AppTitleDescription{
+    font-size: medium;
+      padding: 20;
+}
+.Buddha {
+    height: 350px;
+      position: absolute; 
+  
+
+}
+.navbar-toggler-icon{
+  color: rgb(209, 184, 184);
+
+  
+}
+
+.Main {
+  font-size: medium;
+}
+.navbar-nav {
+  padding-top: 10;
+  flex: row;
+  text-align: right;
+}
+.container {
+  flex: row;
+  color: blue;
+}
+.navbar-collapse {
+  flex: row;
+}
+
+.my-nav{ 
+  height: 20px;
+  text-align: left;
+  height: 60px;
+  background: repeating-radial-gradient(#423d37, #040505 50px);
+}
+
+.my-nav .navbar-brand {
+  color:rgb(255, 255, 255);
+  font-family: cursive;
+  font-size: smaller;
+  margin: 20px 250px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+
+  
+  }
+  .logo{
+    position: absolute;
+    margin: 20px 50px;
+    text-align: left;
+    transform: translate(-50%, -50%);
+  }
+.my-nav .navbar-brand:hover{
+  color:gold}
+
+.my-nav .nav-link {
+  color:rgb(116, 114, 114);
+   font-family: cursive;
+   text-align: left;
+  }
+.my-nav .nav-link:hover {
+  color:rgb(255, 255, 255);
+} 
+
+.title {
+ color: white;
+}
+.title_image {
   color: white;
 }
+.subtitle {
+  color: white;
+  font-family: cursive;
+}
+.image {
+  color: white;
+}
+.topic {
+  color: white;
+}
+.paragraph {
+  color: white;
+}
+.option {
+  color: white;
+}
+.intro{
+  color: white;
+  font-family: cursive;
+}
+.part{
+  color: white;
+  font-family: cursive;
+}
+.chapter{
+  color: white;
+  font-family: cursive;
+}
+ 
+ .second-circle{
+      position: absolute; 
+        background: repeating-radial-gradient(	rgb(243, 87, 87) 30%, #1f1d1d);
+          top: 49%;
+            left: 50%;
+              transform: translate(-50%, -50%);
+              width: 260px;
+            height: 260px;
+          border-radius: 50%;
+        stroke-width: 20px;
+      z-index: 13;
+ 
+ }
+ .third-circle{
+      position: absolute; 
+        background: repeating-radial-gradient( #1E90FF 40%, #040505);
+          top: 49%;
+            left: 50%;
+              transform: translate(-50%, -50%);
+              width: 420px;
+            height: 420px;
+          border-radius: 50%;
+        stroke-width: 20px;
+      z-index: 12;
+ }
 
-.App-link {
-  color: #61dafb;
+
+
+.first-rect {
+      position: absolute; 
+        background-color: rgb(165, 103, 32); 
+          top: 49%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          width: 350px;
+        height: 350px;
+      z-index: 11;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.second-rect{
+      position: absolute; 
+        background-color: 	#1E90FF; 
+          top: 49%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          width: 370px;
+        height: 370px;
+      z-index: 10;
 }
+
+
+
+.third-rect{
+      position: absolute; 
+        background-color: 	#DC143C; 
+          top: 49%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          width: 420px;
+        height: 420px;
+      z-index: 9;
+}
+
+
+.a-rect {
+      position: absolute; 
+        background-color: rgb(247, 221, 167); 
+          top: 49%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          width: 425px;
+        height: 425px;
+      z-index: 8;
+  }
+
+
+
+.forth-rect{
+    position: absolute; 
+      background-color: #A0522D; 
+        top: 49%;
+          left: 50%;
+            transform: translate(-50%, -50%);
+          width: 470px;
+        height: 470px;
+      stroke-width: 20px;
+    z-index: 7;
+}
+
+
+.b-rect{
+    position: absolute; 
+      background-color:  rgb(247, 221, 167); 
+        top: 49%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        width: 475px;
+      height: 475px;
+    z-index: 6;
+}
+
+
+.fifth-rect {
+    position: absolute; 
+      background-color: 	#1E90FF; 
+        top: 49%;
+          left: 50%;
+            transform: translate(-50%, -50%);
+          width: 500px;
+        height: 500px;
+      stroke-width: 20px;
+    z-index: 5;
+}
+
+
+.sixth-rect{
+    position: absolute; 
+      background-color: #AFEEEE; 
+        top: 49%;
+          left: 50%;
+            transform: translate(-50%, -50%);
+          width: 520px;
+        height: 520px;
+      stroke-width: 20px;
+    z-index: 4;
+}
+
+
+
+.white-buddha{
+      top: 49.5%;
+        left: 50.5%;
+          position: absolute;
+            transform: translate(-50%, -50%);
+            animation-name: White-Buddha;
+          animation-duration: 20000ms;
+        animation-play-state: running, paused;
+      z-index: 100;
+  }
+
+
+  @keyframes White-Buddha {
+          0%{
+              width: auto;
+              height: 150px;
+
+                    }
+                    25% {
+                    width: auto;
+                    height: 250px;
+                    }
+
+                          50%{
+                            width: auto;
+                            height: 400px;
+                          }
+
+                    /* 75%{
+                      width: auto;
+                      height: 650px;
+                    }
+
+          100%{
+              width: auto;
+              height: 750px;
+          } */
+      }
+
+
+
+.blue-buddha{
+    top: 74%;
+      left: 50%;
+        display: flex;
+          position: absolute;
+            transform: translate(-50%, -50%);
+          animation-name: BlueBuddha;
+        animation-duration: 20000ms;
+      animation-delay: 10000ms;
+    z-index: 20;
+}
+
+
+
+.yellow-buddha{
+    position: absolute;
+      display: flex;
+        transform: translate(-50%, -50%);
+          top: 50%;
+            left: 37%;
+          animation-name: YellowBuddha;
+        animation-duration: 20000ms;
+      animation-delay: 20000ms;
+    z-index: 20;
+}
+
+
+
+.red-buddha{
+    top: 25%;
+      left: 50%;
+        position: absolute;
+          display: flex;
+            transform: translate(-50%, -50%);
+          animation-name: RedBuddha;
+        animation-duration: 20000ms;
+      animation-delay: 30000ms;
+    z-index: 20;
+}
+
+
+
+
+.green-buddha{
+    position: absolute; 
+      display: flex;
+        transform: translate(-50%, -50%);
+          top: 49%;
+            left: 63%;
+          animation-name: GreenBuddha;
+        animation-duration: 20000ms;
+      animation-delay: 40000ms;
+    z-index: 20;
+}
+
+
+
+
+
+
+
+
